@@ -6,12 +6,18 @@ hp_profile = {
     }
 
 while True:
-    question = input("Do you want to change the username? Press stop to quit: ")
-    if question == "stop":
+    new_name = input("What is your new username? Press stop to quit: ")
+    if new_name == "stop":
         break
-    elif =
-        new_name = input("What's your new username?: ")
+    elif new_name != "":
         hp_profile['display_name'] = new_name
+        break
+
+
+
+
+
+
 
     
     
